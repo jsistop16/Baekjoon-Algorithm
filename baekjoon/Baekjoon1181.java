@@ -26,15 +26,15 @@ public class Baekjoon1181 {
 		Arrays.sort(arr, new Comparator<String>() {
 			public int compare(String s1, String s2) {
 				if(s1.length() == s2.length()) {
-					//±æÀÌ°¡ °°À»°æ¿ì
+					//ê¸¸ì´ê°€ ê°™ì„ê²½ìš°
 					return s1.compareTo(s2);
-					//ºñ±³ÇØ¼­ Á¤·Ä
-					//À½¼ö°¡ ³ª¿À¸é ±×´ë·Î
-					//¾ç¼ö°¡ ³ª¿À¸é ÀÚ¸®¹Ù²Ş
+					//ë¹„êµí•´ì„œ ì •ë ¬
+					//ìŒìˆ˜ê°€ ë‚˜ì˜¤ë©´ ê·¸ëŒ€ë¡œ
+					//ì–‘ìˆ˜ê°€ ë‚˜ì˜¤ë©´ ìë¦¬ë°”ê¿ˆ
 				}
 				else {
 					return s1.length()-s2.length();
-					//±æÀÌ¸¦ ±âÁØÀ¸·Î Á¤·Ä
+					//ê¸¸ì´ë¥¼ ê¸°ì¤€ìœ¼ë¡œ ì •ë ¬
 				}
 			}
 		});
@@ -52,5 +52,4 @@ public class Baekjoon1181 {
 		bw.flush();
 		bw.close();
 	}
-
 }
