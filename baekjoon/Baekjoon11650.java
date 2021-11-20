@@ -23,7 +23,7 @@ public class Baekjoon11650 {
 			arr[i][1] = Integer.parseInt(st.nextToken());
 		}
 		
-		//¶÷´Ù½ÄÀ¸·Î Ç¥Çö
+		//람다식으로 표현
 		Arrays.sort(arr, (e1, e2) -> {
 			if(e1[0]==e2[0]) {
 				return e1[1]-e2[1];
