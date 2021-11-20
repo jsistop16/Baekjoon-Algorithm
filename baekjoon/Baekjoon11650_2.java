@@ -30,7 +30,7 @@ public class Baekjoon11650_2 {
 		}
 		
 		Arrays.sort(arr, new Comparator<int[]>() {
-			//ComparatorÀÎÅÍÆäÀÌ½ºÀÇ compare¸Ş¼Òµå ¿À¹ö¶óÀÌµù
+			//Comparatorì¸í„°í˜ì´ìŠ¤ì˜ compareë©”ì†Œë“œ ì˜¤ë²„ë¼ì´ë”©
 			public int compare(int[] e1, int[] e2) {
 				if(e1[0]==e2[0]) {
 					return e1[1]-e2[1];
